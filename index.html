@@ -48,7 +48,7 @@
               Lorem ipsum dolor sit amet, consectetur adipis<br>icing elit, sed do eiusmod tempor incididunt ut<br>
               labore et dolore magna aliqua.
             </p>
-            <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Read More</a>
+            <button type="button" class="btn btn-secondary read-more-button">Read More</button>
           </div>
         </div>
       </div>
@@ -58,8 +58,8 @@
   <section id="about">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 mr-auto sheet_object ">
-          <img src="img/sheet.png" alt="">
+        <div class="col-lg-3 ml-auto">
+          <div class="sheet_object"><img src="img/sheet.png" alt=""></div>
         </div>
         <div class="col-lg-7">
           <h2>Lorem ipsum dolor sit amet</h2>
@@ -68,11 +68,11 @@
             ea commodo consequat.</p>
         </div>
         <div class="col-lg-2">
-          <!-- <button type="button" class="btn btn-primary btn-circle fa-pencil"><i class="fa fa-pencil"></i></button>
-          <button type="button" class="btn btn-primary btn-circle fa-facebook"><i class="fa fa-facebook"></i></button>
-        </div> -->
+          <div class="pencil"><img src="img/pencil.png" alt=""></div>
+          <div class="fb"><img src="img/fb.png" alt=""></div>
         </div>
       </div>
+    </div>
   </section>
 
   <section id="#">
@@ -85,15 +85,57 @@
     </div>
   </section>
 
-  <section id="#">
+  <section id="price-section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
-          <h2>Section 4</h2>
+        <div class="col-lg-12 text-center">
+          <h2>A wireframe is the primitive skeleton of your website.</h2>
+          <p class="price-section-text">Pick a plan from below to get started! Already 20000+ websites and
+            webprojects<br>
+            have been successfully wireframed with HotGloo.</p>
+        </div>
+      </div>
+      <div class="orange-checkmark"><img src="img/orange-checkmark.png" alt=""></div>
+      <div class="card-deck">
+        <div class="card border-0">
+          <div class="card-header-1 text-center">
+            Free
+          </div>
+          <div class="card-body-1">
+            <h4 class="card-title-1 text-center">$0/Month</h4>
+            <p class="card-text-1 text-center">1 Project</p>
+            <p class="card-text-1 text-center">5 Members</p>
+            <p class="card-text-1 text-center">5 GB</p>
+          </div>
+          <button type="button" class="btn btn-secondary card-button-1">Sign Up</button>
+        </div>
+        <div class="card border-0">
+          <div class="card-header-2 text-center">
+            Professional
+          </div>
+          <div class="card-body-2">
+            <h4 class="card-title-2 text-center">$50/Month</h4>
+            <p class="card-text-2 text-center">20 Projects</p>
+            <p class="card-text-2 text-center">50 Members</p>
+            <p class="card-text-2 text-center">100 GB</p>
+          </div>
+        </div>
+        <div class="card border-0">
+          <div class="card-header-3 text-center">
+            Enterprise
+          </div>
+          <div class="card-body-3">
+            <h4 class="card-title-3 text-center">$90/Month</h4>
+            <p class="card-text-3 text-center">Unlimitted</p>
+            <p class="card-text-3 text-center">Unlimited</p>
+            <p class="card-text-3 text-center">500 GB</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
+
+
 
   <section id="section5">
     <div class="container">
@@ -146,9 +188,10 @@
           </form>
         </div>
       </div>
-      <div class="row d-flex justify-content-end">
+      <div class="row">
         <div class="col-lg-3 ml-auto">
-          <button type="button" class="btn btn-primary btn-lg">SEND</button>
+          <!-- <button type="button" class="btn btn-primary btn-lg">SEND</button> -->
+          <button type="button" class="btn btn-danger contact-button">SEND</button>
         </div>
       </div>
     </div>
@@ -157,17 +200,25 @@
   <footer id="footer">
     <div class="container">
       <div class="row">
-        <div class="col-lg-1">
-          <div class="div"><img src="img/logo.png" width="32px" height="32px" alt=""></div>
-        </div>
-        <div class="col-lg-5">
-          <div class="div">
+
+        <div class="col-lg-6 d-flex align-items-start">
+          <div><img src="img/logo.png" width="32px" height="32px" alt=""></div>
+          <div>
             <p><span class="brandName">Flat Mate |</span> <span class="footer-text">Designed By WWW.
                 CSSAUTHOR.COM</span></p>
           </div>
         </div>
-      </div>
-    </div>
+
+        <div class="col-lg-1">
+          <div class="text-left"><img src="img/twitter.png" alt=""></div>
+          <div>
+
+            <div class="col-lg-1">
+              <div class="text-left"><img src="img/fb-foter.png" alt=""></div>
+            </div>
+
+          </div>
+        </div>
   </footer>
 
   <script src="js/jquery.js"></script>

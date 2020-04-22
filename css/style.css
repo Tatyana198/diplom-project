@@ -13,7 +13,12 @@
 }
 
 nav {
-    height: 212px;
+    height: 171px;
+}
+
+#mainNav {
+    /* padding-left: 0px; */
+    padding: 0;
 }
 
 #start .logo {
@@ -39,8 +44,8 @@ h1 {
     font-family: "Roboto Slab";
     font-size: 48px;
     font-weight: 400;
-    margin-bottom: 50px;
-    margin-top: 214px;
+    margin-bottom: 44px;
+    margin-top: 143px;
 }
 
 #start p {
@@ -48,11 +53,11 @@ h1 {
     font-family: Roboto;
     font-size: 25px;
     font-weight: 400;
-    margin-bottom: 57px;
+    margin-bottom: 54px;
     line-height: 39.85px;
 }
 
-#start .btn-lg {
+#start .read-more-button{
     width: 253px;
     height: 75px;
     background-color: #67bf95;
@@ -90,6 +95,7 @@ h1 {
     font-weight: 400;
     margin-bottom: 27px;
     margin-top: 142px;
+    margin-bottom: 27px;
 }
 
 #about p {
@@ -106,37 +112,165 @@ h1 {
     margin-bottom: 129px;
 }
 
-/* #about .btn-circle {
-    width: 68px;
-    height: 68px;
-    border-radius: 35px;
-    text-align: center;
-    padding-left: 0;
-    padding-right: 0;
-    font-size: 16px;
-    white-space: normal;
-    background-color: #67bf95;
-    border-color: #67bf95;
-    font-family: "Font Awesome";
-    font-size: 33px;
-    font-weight: 400;
-} */
+#about .pencil {
+    margin-top: 149px;
+    margin-bottom: 55px;
+    margin-left: 110px;
+}
 
-/* #about .btn-circle fa-facebook {
-    width: 68px;
-    height: 68px;
-    border-radius: 35px;
-    text-align: center;
-    padding-left: 0;
-    padding-right: 0;
-    font-size: 16px;
-    white-space: normal;
-    background-color: ;
-    border-color: #67bf95;
-    font-family: "Font Awesome";
-    font-size: 33px;
+#about .fb {
+    margin-left: 110px;
+}
+
+#price-section {
+    height: 1269px;
+    background-image: url(../img/price-section-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#price-section h2 {
+    color: #37414e;
+    font-family: Roboto;
+    font-size: 41px;
+    font-weight: 500;
+    margin-top: 149px;
+    margin-bottom: 32px;
+}
+
+.orange-checkmark {
+    /* position: absolute; */
+
+}
+
+.price-section-text {
+    color: #858b93;
+    font-family: Roboto;
+    font-size: 21px;
     font-weight: 400;
-}  */
+    margin-bottom: 83px;
+}
+
+
+.card {
+    background-color: #f6f6f7;
+    border: 0;
+}
+
+.card-header-1 {
+    width: 313px;
+    height: 80px;
+    background-color: #4b596c;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.card-body-1 {
+    width: 313px;
+    height: 503px;
+    background-color: #e9eef3;
+}
+
+.card-title-1 {
+    color: #6d737b;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 43px;
+    margin-bottom: 15px;
+}
+
+.card-text-1 {
+    color: #6d737b;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.card-header-2 {
+    width: 313px;
+    height: 80px;
+    background-color: #58ad52;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.card-body-2 {
+    width: 313px;
+    height: 503px;
+    background-color: #deebde;
+}
+
+.card-title-2 {
+    color: #58ad52;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 43px;
+    margin-bottom: 15px;
+}
+
+.card-text-2 {
+    color: #778376;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.card-header-3 {
+    width: 313px;
+    height: 80px;
+    background-color: #52a1ad;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.card-body-3 {
+    width: 313px;
+    height: 503px;
+    background-color: #dde9ec;
+}
+
+.card-title-3 {
+    color: #52a1ad;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 43px;
+    margin-bottom: 15px;
+}
+
+.card-text-3 {
+    color: #6d737b;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.card-button-1 {
+    margin-top: 78px;
+    width: 313px;
+    height: 77px;
+    background-color: #4b596c;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+}
 
 #section5 {
     height: 170px;
@@ -197,7 +331,7 @@ h1 {
     font-weight: 500;
 }
 
-#contact .btn-lg {
+.contact-button {
     width: 219px;
     height: 88px;
     background-color: #be393b;
@@ -209,6 +343,7 @@ h1 {
     line-height: 30.84px;
     text-transform: uppercase;
     padding: 30px 66px 30px 64px;
+    box-shadow: none !important;
 }
 
 .contact-icon {
