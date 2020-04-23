@@ -57,7 +57,7 @@ h1 {
     line-height: 39.85px;
 }
 
-#start .read-more-button{
+#start .read-more-button {
     width: 253px;
     height: 75px;
     background-color: #67bf95;
@@ -138,11 +138,6 @@ h1 {
     margin-bottom: 32px;
 }
 
-.orange-checkmark {
-    /* position: absolute; */
-
-}
-
 .price-section-text {
     color: #858b93;
     font-family: Roboto;
@@ -191,6 +186,19 @@ h1 {
     margin-bottom: 80px;
 }
 
+.card-button-1 {
+    margin-top: 78px;
+    width: 313px;
+    height: 77px;
+    background-color: #4b596c;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+}
+
 .card-header-2 {
     width: 313px;
     height: 80px;
@@ -223,6 +231,19 @@ h1 {
     font-weight: 400;
     margin-top: 80px;
     margin-bottom: 80px;
+}
+
+.card-button-2 {
+    margin-top: 78px;
+    width: 313px;
+    height: 77px;
+    background-color: #58ad52;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    border-radius: 0px !important;
+    box-shadow: none !important;
 }
 
 .card-header-3 {
@@ -259,17 +280,28 @@ h1 {
     margin-bottom: 80px;
 }
 
-.card-button-1 {
+.card-button-3 {
     margin-top: 78px;
     width: 313px;
     height: 77px;
-    background-color: #4b596c;
+    background-color: #52a1ad;
     color: #ffffff;
     font-family: Roboto;
     font-size: 32px;
     font-weight: 500;
     border-radius: 0px !important;
     box-shadow: none !important;
+}
+
+.orange-checkmark {
+    position: absolute;
+    left: 275px;
+    bottom: 50px;
+
+}
+
+.card-header-2 {
+    position: relative;
 }
 
 #section5 {
@@ -352,13 +384,18 @@ h1 {
 }
 
 #footer {
-    height: 193px;
+    height: 125px;
     background-image: url(../img/footer-bg.jpg);
     background-size: cover;
     background-position: center;
 }
 
-#footer .brandName {
+#footer .logo-image {
+    margin-right: 16px;
+    margin-top: 50px;
+}
+
+#footer .brand-name {
     color: #efefef;
     font-family: Roboto;
     font-size: 27px;
@@ -370,4 +407,15 @@ h1 {
     font-family: "Roboto Medium";
     font-weight: 500;
     font-size: 17px;
+}
+
+.footer-tw-icon {
+    margin-right: 45px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-fb-icon {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
