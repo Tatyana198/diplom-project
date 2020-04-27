@@ -132,9 +132,6 @@ h1 {
 #carousel {
     height: 778px;
     background-color: #52ad81;
-    /* background-image: url(../img/section2-bg.jpg);
-    background-size: cover;
-    background-position: center; */
 }
 
 #carouselExampleControls {
@@ -147,23 +144,23 @@ h1 {
     font-family: Roboto;
     font-size: 53px;
     font-weight: 500;
-    margin-top: 108px;
-    margin-bottom: 19px;
+    margin-top: 98px;
+    margin-bottom: 13px;
+    padding: 0px 0px 0px 0px;
 }
 
 #carousel p {
     color: #ffffff;
-    font-family: "Roboto - Thin";
-    font-size: 28px;
-    font-weight: 400;
-    margin-bottom: 89px;
+    font-family: Roboto;
+    font-size: 28.5px;
+    font-weight: 100;
+    margin-bottom: 105px;
+    padding: 0px 0px 0px 0px;
 }
 
 #price-section {
     height: 1269px;
-    background-image: url(../img/price-section-bg.jpg);
-    background-size: cover;
-    background-position: center;
+    background-color: #f6f6f7;
 }
 
 #price-section h2 {
