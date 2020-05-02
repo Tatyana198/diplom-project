@@ -109,7 +109,7 @@ h1 {
     margin-left: 50px;
     padding: 0px;
     margin-top: 0px;
-    
+
 }
 
 #about .sheet_object {
@@ -158,8 +158,37 @@ h1 {
     padding: 0px 0px 0px 0px;
 }
 
+.carouselExampleControls {
+    position: relative;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    left: 300px;
+    bottom: 365px;
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    right: 300px;
+    bottom: 365px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../img/next-icon.png);
+    width: 44px;
+    height: 44px;
+
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../img/prev-icon.png);
+    width: 44px;
+    height: 44px;
+}
+
 #price-section {
-    height: 1269px;
+    height: 1265px;
     background-color: #f6f6f7;
 }
 
@@ -168,8 +197,9 @@ h1 {
     font-family: Roboto;
     font-size: 41px;
     font-weight: 500;
-    margin-top: 149px;
-    margin-bottom: 32px;
+    margin-top: 141px;
+    margin-bottom: 24px;
+    padding: 0px 0px 0px 0px;
 }
 
 .price-section-text {
@@ -177,7 +207,10 @@ h1 {
     font-family: Roboto;
     font-size: 21px;
     font-weight: 400;
-    margin-bottom: 83px;
+    margin-bottom: 79px;
+    padding: 0px 0px 0px 0px;
+    line-height: 1.93;
+
 }
 
 
@@ -222,7 +255,7 @@ h1 {
 }
 
 .card-button-1 {
-    margin-top: 78px;
+    margin-top: 77px;
     width: 313px;
     height: 77px;
     background-color: #4b596c;
@@ -270,7 +303,7 @@ h1 {
 }
 
 .card-button-2 {
-    margin-top: 78px;
+    margin-top: 77px;
     width: 313px;
     height: 77px;
     background-color: #58ad52;
@@ -318,7 +351,7 @@ h1 {
 }
 
 .card-button-3 {
-    margin-top: 78px;
+    margin-top: 77px;
     width: 313px;
     height: 77px;
     background-color: #52a1ad;
@@ -336,6 +369,8 @@ h1 {
     bottom: 50px;
     width: 58px;
     height: 57px;
+    /* left: 85.86%;
+    bottom: 62.5%; */
 }
 
 .card-header-2 {
@@ -343,15 +378,11 @@ h1 {
 }
 
 #section5 {
-    height: 170px;
+    height: 164px;
     background-color: #e9ebed;
     /* background-image: url(../img/section-5.jpg);
     background-size: cover;
     background-position: center; */
-}
-
-#section-video {
-    height: 907px;
 }
 
 #section5 h2 {
@@ -359,7 +390,12 @@ h1 {
     font-family: Roboto;
     font-size: 41px;
     font-weight: 500;
-    margin-top: 65px;
+    margin-top: 55px;
+    padding: 0px 0px 0px 0px;
+}
+
+#section-video {
+    height: 902px;
 }
 
 #contact {
@@ -375,7 +411,7 @@ h1 {
     height: 93px;
     border: 2px solid rgba(190, 57, 59, 0.49);
     background-color: #2f3136;
-    margin-bottom: 55px;
+    margin-bottom: 60px;
 }
 
 #formGroupExampleInput2 {
@@ -438,8 +474,8 @@ h1 {
 }
 
 #footer .logo-image {
-    margin-right: 16px;
-    margin-top: 49px;
+    /* margin-right: 25px; */
+    margin-top: 45px;
 }
 
 #footer .brand-name {
@@ -447,10 +483,14 @@ h1 {
     font-family: Roboto;
     font-size: 27px;
     font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: normal;
 }
 
 #footer p {
-    margin-top: 51px;
+    margin-top: 42px;
+    margin-left: 16px;
+    padding: 0px 0px 0px 0px;
 }
 
 #footer .footer-text {
@@ -461,12 +501,12 @@ h1 {
 }
 
 .footer-tw-icon {
-    margin-right: 45px;
-    margin-top: 40px;
+    margin-top: 37px;
     margin-bottom: 40px;
+    margin-right: 50px;
 }
 
 .footer-fb-icon {
-    margin-top: 40px;
+    margin-top: 37px;
     margin-bottom: 40px;
 }
