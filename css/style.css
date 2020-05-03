@@ -401,35 +401,33 @@ h1 {
 #contact {
     height: 1144px;
     background-color: #2d3136;
-    /* background-image: url(../img/contact-bg.jpg);
-    background-size: cover;
-    background-position: center; */
 }
 
-#formGroupExampleInput {
+#formInput {
     width: 449px;
     height: 93px;
-    border: 2px solid rgba(190, 57, 59, 0.49);
+    margin-top: 9px;
+    border: 2px solid rgba(255, 255, 255, 0.52);
     background-color: #2f3136;
-    margin-bottom: 60px;
+    color: #d7d7d7;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
 }
 
-#formGroupExampleInput2 {
-    width: 449px;
-    height: 93px;
+#formInputMessage {
+    width: 546px;
+    height: 321px;
+    margin-top: 9px;
     border: 2px solid rgba(255, 255, 255, 0.52);
-    background-color: #2f3338;
+    background-color: #2f3136;
+    color: #d7d7d7;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
 }
 
-#formGroupExampleInput3 {
-    width: 542px;
-    height: 317px;
-    border: 2px solid rgba(255, 255, 255, 0.52);
-    background-color: #34383c;
-    margin-bottom: 87px;
-}
-
-.input {
+label {
     color: #d7d7d7;
     font-family: Roboto;
     font-size: 33px;
@@ -441,6 +439,21 @@ h1 {
     font-family: Roboto;
     font-size: 41px;
     font-weight: 500;
+}
+
+.form-group-1 {
+    margin-top: 0px;
+    margin-bottom: 57px;
+}
+
+.form-group-3 {
+    margin-top: 0px;
+    margin-bottom: 81px;
+}
+
+.form-control:focus {
+    border-color: rgba(190, 57, 59, 0.49) !important;
+    box-shadow: none !important;
 }
 
 .contact-button {
@@ -461,7 +474,7 @@ h1 {
 
 .contact-icon {
     margin-top: 119px;
-    margin-bottom: 93px;
+    margin-bottom: 91px;
 
 }
 
